@@ -8,4 +8,6 @@ O **Visual Studio** é a principal e mais antiga IDE para .NET, com suporte para
 
 **Rider**: É rico em funcionalidades, tem uma forte integração com o .NET, é fácil trabalhar com o Unity, tem recomendações de refatoração de código, tem atalhos e comandos que aumentam a produtividade, no entanto é uma IDE paga, não sendo recomendada para iniciantes, ele é mais completo que o visual estúdio porém a performance exige muitos recursos da máquina, exigindo muita memória (estudantes que tem acesso a ambiente corporativo conseguem solicitar licença de teste).
 
-Instalar .NET SDK (https://dotnet.microsoft.com/pt-br/download .NET 9.0 SDK (v9.0.305) - Windows x64 Installer!) e VS Code 
+**Instalar .NET SDK** (https://dotnet.microsoft.com/pt-br/download .NET 9.0 SDK (v9.0.305) - Windows x64 Installer!), para verificar se foi instalado corretamente aperte Windows+R, digite CMD e aperte Enter e digite o seguinte comando dotnet --info. O comando correto é dotnet --info, e não dotnet --infp, e ele é usado para verificar as versões do SDK e do runtime do .NET instaladas no sistema. Ao executar este comando no terminal, você receberá informações detalhadas sobre o ambiente .NET presente na sua máquina, como as versões do SDK, do runtime e outras informações relevantes. 
+
+ ** Instalar VS Code**
