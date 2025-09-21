@@ -10,4 +10,4 @@ O **Visual Studio** é a principal e mais antiga IDE para .NET, com suporte para
 
 **Instalar .NET SDK** (https://dotnet.microsoft.com/pt-br/download .NET 9.0 SDK (v9.0.305) - Windows x64 Installer!), para verificar se foi instalado corretamente aperte Windows+R, digite CMD e aperte Enter e digite o seguinte comando dotnet --info. O comando correto é dotnet --info, e não dotnet --infp, e ele é usado para verificar as versões do SDK e do runtime do .NET instaladas no sistema. Ao executar este comando no terminal, você receberá informações detalhadas sobre o ambiente .NET presente na sua máquina, como as versões do SDK, do runtime e outras informações relevantes. 
 
- ** Instalar VS Code**
+ **Instalar VS Code** 
