@@ -25,6 +25,7 @@ Em 2005, após conflitos com a comunidade,o BitKeeper rescinde a lincença gratu
 ## GitHub
 Acesse --> https://github.com/
 
-É uma plataforma de hospedagem de código paracontrolede versão comGit,e colaboração. A comunidade é ativa, é utilizado mundialmente e o mascote é o "Octocat".
+É uma plataforma de hospedagem de código para controle de versão com Git, e colaboração. A comunidade é ativa, é utilizado mundialmente e o mascote é o "Octocat".
 
 Ele foi desenvolvido em 2008 por Chris Wanstrath,J. Hyett,TomPreston-Werner e Scott Chacon. Em 2018 foi vítima de um dos maiores **Ataques de DDoS** (Ataque distibuído de negação de serviço); foi comprado pelaMicrosoft Corporation por US $ 7,5 bilhões.
+
