@@ -12,3 +12,19 @@ O **Visual Studio** é a principal e mais antiga IDE para .NET, com suporte para
 
  **Instalar VS Code** (https://code.visualstudio.com/docs/?dv=win64user)
  
+## Git
+
+Acesse --> https://git-scm.com
+
+Sistema de Controle de Versão distribuído. É gratuito e Open Source (código aberto), tem ramificações (branching) e fusões (merging) eficientes, além de ser leve e rápido. 
+
+Em 2002 O projeto núclero(kernel) do Linux, que é  open source, começa a utilizar o BitKeeper, um DVCS proprietário;
+
+Em 2005, após conflitos com a comunidade,o BitKeeper rescinde a lincença gratuita. O que leva a Linux Torvalds, o criador do Linux, e sua equipe a desenvolverem sua própria ferramenta, o **Git**.
+
+## GitHub
+Acesse --> https://github.com/
+
+É uma plataforma de hospedagem de código paracontrolede versão comGit,e colaboração. A comunidade é ativa, é utilizado mundialmente e o mascote é o "Octocat".
+
+Ele foi desenvolvido em 2008 por Chris Wanstrath,J. Hyett,TomPreston-Werner e Scott Chacon. Em 2018 foi vítima de um dos maiores **Ataques de DDoS** (Ataque distibuído de negação de serviço); foi comprado pelaMicrosoft Corporation por US $ 7,5 bilhões.
