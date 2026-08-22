@@ -29,3 +29,30 @@ Acesse --> https://github.com/
 
 Ele foi desenvolvido em 2008 por Chris Wanstrath,J. Hyett,TomPreston-Werner e Scott Chacon. Em 2018 foi vítima de um dos maiores **Ataques de DDoS** (Ataque distibuído de negação de serviço); foi comprado pelaMicrosoft Corporation por US $ 7,5 bilhões.
 
+📞 Contato 📬
+
+Quer saber mais sobre o projeto ou entrar em contato? 🤝
+
+<div align="center"> <a href="https://br.linkedin.com/in/thaynabds" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://www.instagram.com/thaynabdstec/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> </div>
+
+📧 E-mail: thaynabdstec@gmail.com ✉️
+
+📱 Telefone: +55 (81) 97912-6121 📞
+
+<div align="center">
+👤 Thayná Batista da Silva
+
+Scrum Master • Product Designer • Analista de Requisitos 💼
+
+Faculdade Senac Recife-PE | Análise e Desenvolvimento de Sistemas 🎓
+
+Mostrar Imagem
+
+</div>
+<div align="center">
+
+Obrigado pela visita! ⭐ Não se esqueça de curtir o projeto se gostou! 🌟
+
+Mostrar Imagem Mostrar Imagem
+
+</div>
