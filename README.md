@@ -1,4 +1,20 @@
 # Bootcamp-DIO-Avanade---Back-end-com-.NET-e-IA-2025
+## ▶️ Como executar
+
+Este repositório reúne as anotações do bootcamp e um primeiro programa em JavaScript.
+
+Pré-requisitos: [Git](https://git-scm.com) e [Node.js](https://nodejs.org) 18 ou superior.
+
+```bash
+git clone https://github.com/thaynabds/Bootcamp-DIO-Avanade---Back-end-com-.NET-e-IA-2025.git
+cd Bootcamp-DIO-Avanade---Back-end-com-.NET-e-IA-2025
+node index.js
+```
+
+Saída esperada: `Hello, World!`
+
+As anotações sobre IDEs, .NET SDK, Git e GitHub estão logo abaixo.
+
 ## Configuração do Ambiente e IDEs
 IDE Ou Ambiente de Desenvovimento Integrado - É um Software que facilita e integra a escrita e depuração de código, uma plataforma que já tem tudo p fazer a escrita e a depuração de forma mais simples sem precisar ficar usando vários locais diferentes, dentro dele vc já faz o que é necessário para escrita e depuração de código.
 
