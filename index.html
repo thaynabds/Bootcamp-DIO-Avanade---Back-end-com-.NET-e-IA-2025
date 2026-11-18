@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://cdnjs.cloudflare.com 'sha256-YVYe1yd3AeuMuOyJsnmnE/6qAhaOBa17GeAMyCdVb6g='; style-src 'unsafe-inline'; img-src https: data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Bootcamp DIO Avanade</title>
+  <style>
+    :root { color-scheme: light dark; --fundo: #ffffff; --texto: #1f2328; --suave: #59636e; --borda: #d1d9e0; --codigo: #f6f8fa; --link: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fundo: #0d1117; --texto: #e6edf3; --suave: #9198a1; --borda: #3d444d; --codigo: #151b23; --link: #4493f8; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; overflow-wrap: anywhere; }
+    h1, h2 { border-bottom: 1px solid var(--borda); padding-bottom: .3em; line-height: 1.25; }
+    a { color: var(--link); }
+    code { background: var(--codigo); padding: .15em .35em; border-radius: 6px; font-size: .9em; }
+    pre { background: var(--codigo); padding: 16px; border-radius: 6px; overflow-x: auto; }
+    pre code { padding: 0; background: none; }
+    img { max-width: 100%; }
+    .aviso { color: var(--suave); }
+  </style>
+</head>
+<body>
+  <main id="conteudo">
+    <p class="aviso">Carregando…</p>
+    <noscript><p>Ative o JavaScript ou leia o <a href="README.md">README.md</a>.</p></noscript>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js" integrity="sha384-/TQbtLCAerC3jgaim+N78RZSDYV7ryeoBCVqTuzRrFec2akfBkHS7ACQ3PQhvMVi" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js" integrity="sha384-+VfUPEb0PdtChMwmBcBmykRMDd+v6D/oFmB3rZM/puCMDYcIvF968OimRh4KQY9a" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+(function () {
+  var alvo = document.getElementById("conteudo");
+  function erro() {
+    alvo.innerHTML = '<p class="aviso">Não foi possível carregar o conteúdo. Leia o <a href="README.md">README.md</a>.</p>';
+  }
+  if (!window.marked || !window.DOMPurify) { erro(); return; }
+  fetch("README.md", { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(function (md) {
+      var html = DOMPurify.sanitize(marked.parse(md), { FORBID_TAGS: ["style", "form", "input"] });
+      alvo.innerHTML = html;
+      alvo.querySelectorAll('a[href^="http"]').forEach(function (a) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      });
+      var h1 = alvo.querySelector("h1");
+      if (h1) document.title = h1.textContent.replace(/-+/g, " ").trim();
+    })
+    .catch(erro);
+})();
+  </script>
+</body>
+</html>
